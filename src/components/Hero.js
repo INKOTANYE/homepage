@@ -2,6 +2,7 @@ import React, {useContext} from 'react'
 import "../style/Hero.css"
 import MenuContext from '../context/MenuContext'
 import { useNavigate} from 'react-router-dom'
+import image from "../pictures/Hero.png"
 
 function Hero() {
     const {setMenu}=useContext(MenuContext)
@@ -18,7 +19,7 @@ function Hero() {
             <h1>Nothing can stop you</h1>
             <button>FIND OUT MORE</button>
         </div>
-        <img onClick={goToRoutedPage} className='heroImage' src="" alt=""/>
+        <img onClick={goToRoutedPage} className='heroImage' src={image}/>
     </div>
   )
 }

@@ -2,7 +2,6 @@
 position: absolute;
 width: 100%;
 height: 900px;
-left: 0px;
 top: 1055px;
 
 background: #434448;
@@ -24,11 +23,11 @@ background: #434448;
     color: #FFFFFF;   
 }
 
-.Promo a {
+.promo-button {
     position: absolute;
     width: 308px;
     height: 52px;
-    left: 1000px;
+    margin-left: 990px;
     top: 84px;
     border:none;
     cursor: pointer;
@@ -36,19 +35,20 @@ background: #434448;
     border-radius: 2px;
 }
 
-.Promo a h1 {
+.promo-button button  {
     height: 20px;
-    
+    border:none;
     font-family: 'Sora',sans-serif;
     font-style: normal;
-    font-weight: 700;
     font-size: 16px;
+    font-size: large;
     line-height: 20px;
     text-transform: uppercase;
-    
+    background: #FFFFFF; 
     color: #ED1C24 !important;
-    margin-top: -10px;
-    margin-left: 12px;
+    margin-left: 20%;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 .video {

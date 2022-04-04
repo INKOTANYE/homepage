@@ -17,8 +17,7 @@
 position: static;
 width: 305px;
 height: 40px;
-left: calc(50% - 305px/2);
-top: 63px;
+
 
 font-family: 'Sora',sans-serif;
 font-style: normal;
@@ -28,9 +27,6 @@ line-height: 40px;
 text-align: center;
 
 color: #400E03;
-
-flex: none;
-flex-grow: 0;
 margin-top:24px;
 }
 

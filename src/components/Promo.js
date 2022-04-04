@@ -1,5 +1,6 @@
 import React from 'react'
 import "../style/Promo.css"
+import { Link } from 'react-router-dom'
 
 function Promo() {
 
@@ -7,7 +8,7 @@ function Promo() {
     <div className='Promo'>
       <header>
         <h1>Feel the excellent wet braking with Driveways!</h1>
-        <a href="https://www.lassa.com/tyre-videos"><h1>Watch All Videos</h1></a>
+        <Link to="https://www.lassa.com/tyre-videos" className="promo-button"><button>Watch All Videos</button></Link>
       </header>
 
 
