@@ -2,13 +2,22 @@ import React from 'react'
 import FeaturedProducts from './FeaturedProducts'
 import Hero from './Hero'
 import Promo from './Promo'
+import MenuList from './MenuList'
 
-function HomePage() {
+
+function HomePage( {open, menuList}) {
+
+
   return (
     <div>
-        <Hero/>
-        <FeaturedProducts/>
-        <Promo/>
+      {open && <MenuList menuList={menuList}/> }
+     
+      <div>
+            <FeaturedProducts/>
+            <Hero/>
+            <Promo/>
+      </div>
+      
     </div>
   )
 }

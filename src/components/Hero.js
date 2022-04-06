@@ -14,11 +14,7 @@ function Hero() {
     }
     
   return (
-    <div>
-        <div className='hero'>
-            <h1>Nothing can stop you</h1>
-            <button>FIND OUT MORE</button>
-        </div>
+    <div className='hero'>
         <img onClick={goToRoutedPage} className='heroImage' src={image}/>
     </div>
   )

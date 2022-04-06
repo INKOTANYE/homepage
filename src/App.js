@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <MenuProvider>
         <BrowserRouter>
-          <Container />
+          <Container/>
         </BrowserRouter>
       </MenuProvider>
     </div>

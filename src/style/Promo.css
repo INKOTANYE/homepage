@@ -1,61 +1,61 @@
 .Promo {
-position: absolute;
-width: 100%;
-height: 900px;
-top: 1055px;
-
-background: #434448;
-}
-
-.Promo h1 {
     position: absolute;
-    width: 600px;
-    height: 90px;
-    left: 64px;
-    top: 30px;
+    width: 100%;
+    height: 900px;
+    top: 1055px;
     
-    font-family: 'Sora',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
+    background: #434448;
+    }
     
-    color: #FFFFFF;   
-}
-
-.promo-button {
+    .Promo h1 {
+        position: absolute;
+        width: 600px;
+        height: 90px;
+        left: 64px;
+        top: 30px;
+        
+        font-family: 'Sora',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        
+        color: #FFFFFF;   
+    }
+    
+    .promo-button {
+        position: absolute;
+        width: 308px;
+        height: 52px;
+        margin-left: 990px;
+        top: 84px;
+        border:none;
+        cursor: pointer;
+        background: #FFFFFF; 
+        border-radius: 2px;
+    }
+    
+    .promo-button button  {
+        height: 20px;
+        border:none;
+        font-family: 'Sora',sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        font-size: large;
+        line-height: 20px;
+        text-transform: uppercase;
+        background: #FFFFFF; 
+        color: #ED1C24 !important;
+        margin-left: 20%;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    
+    .video {
     position: absolute;
-    width: 308px;
-    height: 52px;
-    margin-left: 990px;
-    top: 84px;
-    border:none;
-    cursor: pointer;
-    background: #FFFFFF; 
-    border-radius: 2px;
-}
-
-.promo-button button  {
-    height: 20px;
-    border:none;
-    font-family: 'Sora',sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    font-size: large;
-    line-height: 20px;
-    text-transform: uppercase;
-    background: #FFFFFF; 
-    color: #ED1C24 !important;
-    margin-left: 20%;
-    margin-top: 15px;
-    cursor: pointer;
-}
-
-.video {
-position: absolute;
-width: 1250px;
-height: 600px;
-left: calc(50% - 1312px/2);
-margin-top: 230px;
-margin-left: 30px;
-}
+    width: 1250px;
+    height: 600px;
+    left: calc(50% - 1312px/2);
+    margin-top: 230px;
+    margin-left: 30px;
+    }

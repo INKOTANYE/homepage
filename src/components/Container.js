@@ -1,4 +1,4 @@
-import React, {useContext } from 'react'
+import React, {useContext, useState } from 'react'
 import Header from './Header'
 import { Routes, Route} from 'react-router-dom'
 import RoutedPage from './RoutedPage'
@@ -8,13 +8,22 @@ import MenuContext from '../context/MenuContext'
 function Container() {
 
   const {menu}=useContext(MenuContext)
+  const [open, setOpen]=useState(false)
+
+  const [menuList]=useState([
+    "SHOW ALL TYRES",
+    "FIND A DEALER",
+    "GUIDES & VIDEOS",
+    "GO WITH",
+    "SERVICE & HELP"
+])
 
   return (
-    <div className='container'>
-        <Header/>
-        <div className="site-layout-content">
+    <div>
+        <Header open={open} setOpen={setOpen} menuList={menuList}/>  
+        <div>
             <Routes>
-                <Route path='/' element={<HomePage/>} />
+                <Route path='/' element={<HomePage open={open} setOpen={setOpen} menuList={menuList}/>} />
                 <Route path='/:menu' element={<RoutedPage menu={menu}/>} />
                 <Route path='/learnmore/:menu' element={<RoutedPage menu={menu}/>} />
                 <Route path='/findadealer/:menu' element={<RoutedPage menu={menu}/>} />

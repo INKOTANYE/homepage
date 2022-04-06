@@ -1,4 +1,199 @@
+
+
 .FeaturedProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  background: #F9F6F6; 
+  margin-top: auto;
+}
+
+.FeaturedProducts h1 {
+width: 305px;
+height: 40px;
+
+
+font-family: 'Sora',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+color: #400E03;
+margin-top:24px;
+}
+
+.slider {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+color: #400E03;
+position: static;
+width: 1100px;
+height: 235px;
+margin-top: 24px !important;
+margin: auto;
+}
+
+.slider-component {
+position: static;
+width: 350px;
+height: 235px;
+margin-left: 6px;
+top: 0px;
+background: #FFFFFF;
+border: 1px solid #E0D8D7;
+box-sizing: border-box;
+border-radius: 2px;
+border-bottom: 3px solid #ED1C24;
+}
+
+.slider-component h2 {
+width: 329px;
+height: 12px;
+padding-left: 24px;
+font-family: 'Sora',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 136%;
+text-transform: uppercase;
+color: #400E03; 
+}
+
+.slider-component h6 {
+width: 310px;
+height: 80px;
+padding-left: 24px;
+font-family: 'Sora',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+color: #400E03;
+} 
+
+.slider-buttons {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+
+
+padding-left: 12px;
+padding-right: 12px;
+width: 450px;
+}
+
+.button-learnmore {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-bottom: 12px;
+border: none;
+width: 157px;
+height: 10px;
+cursor: pointer; 
+background: #FDE4E5;
+border-radius: 2px;
+padding-right: 22px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-right: 6px;
+
+}
+
+.button-findadealer {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 157px;
+height: 10px;
+margin-bottom: 12px;
+background: #ED1C24;
+border-radius: 2px;
+padding-right: 22px;
+padding-top: 20px;
+padding-bottom: 20px;
+cursor: pointer;
+margin-left: 6px;
+margin-right: 12px;
+border:none;
+}
+
+.button-findadealer h6 {
+width: 94px;
+height: 15px;
+
+font-family: 'Sora',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.button-learnmore h6 {
+position: static;
+width: 94px;
+height: 15px;
+font-family: 'Sora',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+    
+color: #ED1C24;
+}
+
+.slick-prev:before {
+  font-family: "Font Awesome 5 Free";
+  content: "←";
+  color: white;
+  font-size: 20px;
+}
+
+.slick-next:before {
+  font-family: "Font Awesome 5 Free";
+  content: "→";
+  color: white;
+  font-size: 20px;
+}
+
+.slick-dots {
+left: 50%;
+bottom: -50px;
+transform: translateX(-50%);
+  
+}
+
+.slick-dots li button {
+width: 3px;
+height: 3px;
+color:#ED1C24;
+background:  #ED1C24;
+border-radius: 50%;
+margin: 0 2px;
+  text-indent: -9999px;
+  overflow:hidden; 
+}
+
+.slick-dots li.slick-active button {
+width: 15px;
+height: 15px;
+background: #ED1C24;
+}.FeaturedProducts {
     display: flex;
     flex-direction: column;
     align-items: center;
